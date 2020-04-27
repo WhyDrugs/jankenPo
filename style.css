@@ -1,0 +1,127 @@
+        #principal {}
+        
+        #titulo {
+            text-align: center;
+            color: black;
+        }
+        
+        #placar {
+            display: flex;
+            color: #FFF;
+        }
+        
+        #jogador {
+            background-color: rgb(245, 94, 94);
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 30px;
+        }
+        
+        #jogador ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #jogador li {
+            display: inline;
+        }
+        
+        #jogador #jogador-escolha {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #jogador #jogador-escolha a {
+            opacity: .4;
+        }
+        
+        #jogador #jogador-escolha a:hover {
+            opacity: 1;
+        }
+        
+        #jogador #jogador-escolha li {
+            display: inline;
+            padding: 0 15px;
+        }
+        
+        #jogador #jogador-escolha img {
+            max-width: 70px;
+        }
+        
+        #jogador-pontos {
+            text-align: right;
+        }
+        
+        teste #computador {
+            background-color: rgb(95, 108, 231);
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 30px;
+        }
+        
+        #computador ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #computador li {
+            display: inline;
+        }
+        
+        #computador #computador-escolha {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #computador #computador-escolha a {
+            opacity: .4;
+        }
+        
+        #computador #computador-escolha a:hover {
+            opacity: 1;
+        }
+        
+        #computador #computador-escolha li {
+            display: inline;
+            padding: 0 15px;
+        }
+        
+        #computador #computador-escolha img {
+            max-width: 70px;
+        }
+        
+        #versus {
+            font-size: 80px;
+            padding-top: 20px;
+            text-align: center;
+            color: black;
+        }
+        
+        #computador {
+            background-color: rgb(76, 179, 76);
+            flex-grow: 1;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
+        #texto {
+            border-top: 20px;
+            background-color: gray;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 20px;
+            margin: 15px;
+            padding: 15px;
+            font-size: 20px;
+            color: #FFF;
+        }
